@@ -37,17 +37,27 @@ ___
 
 <p>The goal with the Project</p>
 
-### User Goals
+### User Goals:
 
 * Inspire users to try different workout programs and participate in classes
 * Atleast the web site should be suitable for most of the gadgets ie, desktop,tablet and phones
 * Making users to learn more and more **skills of gyming** 
 * Helping people to be flexible in their definition of success.
 
-### Site Owners Goals
+### Site Owners Goals:
 * To Inspire people Improve their **immune system**
 * By increasing _Awareness_ to the site user.
 
-### User Stories
+### User Stories:
 * As a usre I need to review my previous bids in the Acquisition ordering platform so that _I can remove expired bids._
 * As a user i want to edit and  review content before it is published so that I can assure it is optimized with correct grammar and tone.
+## User Requirements and Expectations:
+___
+
+### Requirements:
+* The website has to be easly nevigated through Navbars and buttons respectely
+* The must be displayed in visually manor.
+* The site have **Specific inputs,** including __data types,__ to be entered into the system. 
+### Expectations:
+
+
