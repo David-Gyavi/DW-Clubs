@@ -1,7 +1,7 @@
 # DW: Clubs
 
 ___
-![Markdown Logo]()
+![Markdown Logo](assets/css/images/lady_pool.jpg)
 <p>The biggest core and the reason of this Club is to keep people health and to sport.</p>
 
 ### Content
@@ -59,5 +59,18 @@ ___
 * The must be displayed in visually manor.
 * The site have **Specific inputs,** including __data types,__ to be entered into the system. 
 ### Expectations:
+
+* The information should be **Accessible** and easly __understandable__.
+* The site should be  Interactive.
+* *Intuitiveness* of the site makes it perfect.
+
+## Design Choices:
+___
+
+<paragraphs>When designing this site, I trie to copy different ideas and layouts so that i could make mine in my own way. 
+I wantend really to see if i can develop something different out of me. 
+Therefore from the little skills i aquired from code Institute Instructors. So me making it wanted to see if it can compete on the international market.
+### Fonts:
+<p>For this project I'm going to use the Exo and the Roboto font for my project. they are both elegant and eyecatching yet simple. For paragraphs I'm going to use Roboto, Roboto is somehow like Exo however much there is a small difference, the two fonts work great together.<p>
 
 
