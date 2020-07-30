@@ -1,7 +1,7 @@
 # DW: Clubs
 
 ___
-![Markdown Logo](assets/css/images/lady_pool.jpg)
+![Markdown Logo](assets/images/lady_pool.jpg)
 <p>The biggest core and the reason of this Club is to keep people health and to sport.</p>
 
 ### Content
@@ -18,7 +18,6 @@ ___
         * Colors
         * Fonts
         * styling 
-        * Images
     4. Feature
         * Features that have been developed
         * Features that will be implemented in the future
@@ -67,10 +66,38 @@ ___
 ## Design Choices:
 ___
 
-<paragraphs>When designing this site, I trie to copy different ideas and layouts so that i could make mine in my own way. 
+<p>When designing this site, I trie to copy different ideas and layouts so that i could make mine in my own way. 
 I wantend really to see if i can develop something different out of me. 
-Therefore from the little skills i aquired from code Institute Instructors. So me making it wanted to see if it can compete on the international market.
+Therefore from the little skills i aquired from code Institute Instructors. So me making it wanted to see if it can compete on the international market.<p>
+
 ### Fonts:
-<p>For this project I'm going to use the Exo and the Roboto font for my project. they are both elegant and eyecatching yet simple. For paragraphs I'm going to use Roboto, Roboto is somehow like Exo however much there is a small difference, the two fonts work great together.<p>
+<p>For this project I'm going to use the Exo and the [Roboto]() font for my project. they are both elegant and eyecatching yet simple. For paragraphs I'm going to use Roboto, Roboto is somehow like [Exo](https://fonts.google.com) however much there is a small difference, the two fonts work great together.<p>
+
+### Icons:
+Icons are basically provided by [Font Awesome](https://fontawesome.com/) and are **easly applied** to your website, used in __moderation__ and are self explanatory.
+
+### Colors:
+The colours that have used are mainly the colours that have chosen to let the web appearance look fantastic.
 
 
+
+
+
+### Styling:
+For the overall styling of the project I'm using the foundation of Boostrap but on top of that I am using my own styling.
+
+
+## Technologies In the Project:
+___
+
+### Languages:
+ * HTML
+ * CSS 
+ * JS
+ 
+ ### Libaries & Frameworks:
+* Boostrap
+* Font Awesome
+* JQuery
+* Googel fonts
+* Git
