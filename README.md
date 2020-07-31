@@ -91,13 +91,16 @@ For the overall styling of the project I'm using the foundation of Boostrap but 
 ___
 
 ### Languages:
- * HTML
- * CSS 
- * JS
+ * [HTML](https://html.com/)
+ * [ CSS ](https://developer.mozilla.org/en-US/docs/Web/CSS)
+ * [JS](https://developer.mozilla.org/en-US/docs/Web/JS)
  
  ### Libaries & Frameworks:
 * Boostrap
 * Font Awesome
-* JQuery
+* [JQuery](https://code.jquery.com/)
 * Googel fonts
 * Git
+
+## Testing:
+___
