@@ -96,11 +96,11 @@ ___
  * [JS](https://developer.mozilla.org/en-US/docs/Web/JS)
  
  ### Libaries & Frameworks:
-* Boostrap
-* Font Awesome
+* [Boostrap](https://getbootstrap.com/)
+* [FontAwesome](https://fontawesome.com/v4.7.0/)
 * [JQuery](https://code.jquery.com/)
-* Googel fonts
-* Git
+* [Googelfonts](https://fonts.google.com/)
+* [Git](https://git-scm.com/)
 
 ## Testing:
 ___
