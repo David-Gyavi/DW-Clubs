@@ -78,9 +78,17 @@ Icons are basically provided by [Font Awesome](https://fontawesome.com/) and are
 
 ### Colors:
 The colours that have used are mainly the colours that have chosen to let the web appearance look fantastic.
+<p>These are the colors i will be using in my entire websit.<p>
 
+#### color miture by names 
+* Raisin Black(#1F1E22)
+* Oxford Blue(#010830)
+* Royal Blue Dark(#0C2E70)
+* Fandago(#B93993)
+* Red Pigment(#EC1212)
+* White(#FEFEFE)
 
-
+![Markdown Logo](assets/images/color-mixture.png)
 
 
 ### Styling:
