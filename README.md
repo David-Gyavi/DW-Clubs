@@ -74,7 +74,7 @@ Therefore from the little skills i aquired from code Institute Instructors. So m
 <p>For this project I'm going to use the Exo and the [Roboto]() font for my project. they are both elegant and eyecatching yet simple. For paragraphs I'm going to use Roboto, Roboto is somehow like [Exo](https://fonts.google.com) however much there is a small difference, the two fonts work great together.<p>
 
 ### Icons:
-Icons are basically provided by [Font Awesome](https://fontawesome.com/) and are **easly applied** to your website, used in __moderation__ and are self explanatory.
+Icons are basically provided by [Font Awesome] (https://fontawesome.com) and are **easly applied** to your website, used in __moderation__ and are self explanatory.
 
 ### Colors:
 The colours that have used are mainly the colours that have chosen to let the web appearance look fantastic.
