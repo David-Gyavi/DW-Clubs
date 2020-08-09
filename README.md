@@ -67,19 +67,19 @@ ___
 ## Design Choices:
 ___
 
-<p>When designing this site, I trie to copy different ideas and layouts so that i could make mine in my own way. 
+When designing this site, I trie to copy different ideas and layouts so that i could make mine in my own way. 
 I wantend really to see if i can develop something different out of me. 
 Therefore from the little skills i aquired from code Institute Instructors. So me making it wanted to see if it can compete on the international market.
 
 ### Fonts:
-For this project I'm going to use the Serif and the [Lora](https://fonts.google.com/specimen/Lora?query=lora) however much there is a small difference, the two fonts work great together.<p>
+For this project I'm going to use the Serif and the [Lora](https://fonts.google.com/specimen/Lora?query=lora) however much there is a small difference, the two fonts work great together.
 
 ### Icons:
 Icons are basically provided by [Font Awesome](https://fontawesome.com) and are **easly applied** to your website, used in __moderation__ and are self explanatory.
 
 ### Colors:
 The colours that have used are mainly the colours that have chosen to let the web appearance look fantastic.
-<p>These are the colors i will be using in my entire websit.<p>
+These are the colors i will be using in my entire websit.
 
 #### color miture by names 
 * Raisin Black: ![#1F1E22](https://via.placeholder.com/15/1F1E22/000000?text=+) `#1F1E22`
@@ -93,7 +93,7 @@ The colours that have used are mainly the colours that have chosen to let the we
 
 
 ### Styling:
-For the overall styling of the project I'm using the foundation of Boostrap but on top of that I am using my own styling.
+For my project am using bootstrap as my major styling foundation but still togather we the help of css and JQuery too.
 
 
 ## Technologies In the Project:
