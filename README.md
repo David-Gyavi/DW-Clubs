@@ -34,7 +34,8 @@ ___
 
 ## Project Goals
 
-<p>The goal with the Project</p>
+The goal with the is to try make people work out atleast every after two days keeping the same exact routine when it comees to fitness.
+A part from the fitness issue. The main project goal for this site is to increase peoples ___Awareness__ and make it user **friendly to the users**. 
 
 ### User Goals:
 
@@ -68,10 +69,10 @@ ___
 
 <p>When designing this site, I trie to copy different ideas and layouts so that i could make mine in my own way. 
 I wantend really to see if i can develop something different out of me. 
-Therefore from the little skills i aquired from code Institute Instructors. So me making it wanted to see if it can compete on the international market.<p>
+Therefore from the little skills i aquired from code Institute Instructors. So me making it wanted to see if it can compete on the international market.
 
 ### Fonts:
-<p>For this project I'm going to use the Exo and the [Roboto]() font for my project. they are both elegant and eyecatching yet simple. For paragraphs I'm going to use Roboto, Roboto is somehow like [Lora] (https://fonts.google.com) however much there is a small difference, the two fonts work great together.<p>
+For this project I'm going to use the Serif and the [Lora](https://fonts.google.com/specimen/Lora?query=lora) however much there is a small difference, the two fonts work great together.<p>
 
 ### Icons:
 Icons are basically provided by [Font Awesome](https://fontawesome.com) and are **easly applied** to your website, used in __moderation__ and are self explanatory.
@@ -81,12 +82,12 @@ The colours that have used are mainly the colours that have chosen to let the we
 <p>These are the colors i will be using in my entire websit.<p>
 
 #### color miture by names 
-* Raisin Black(#1F1E22)
-* Oxford Blue(#010830)
-* Royal Blue Dark(#0C2E70)
-* Fandago(#B93993)
-* Red Pigment(#EC1212)
-* White(#FEFEFE)
+* Raisin Black: ![#1F1E22](https://via.placeholder.com/15/1F1E22/000000?text=+) `#1F1E22`
+* Oxford Blue: ![#010830](https://via.placeholder.com/15/010830/000000?text=+) `#010830`
+* Royal Blue Dark: ![#0C2E70](https://via.placeholder.com/15/0C2E70/000000?text=+) `#0C2E70`
+* Fandago: ![#B93993](https://via.placeholder.com/15/B93993/000000?text=+) `#B93993`
+* Red Pigment: ![#EC1212](https://via.placeholder.com/15/EC1212/000000?text=+) `#EC1212`
+* White: ![#FEFEFE](https://via.placeholder.com/15/FEFEFE/000000?text=+) `#FEFEFE`
 
 ![Markdown Logo](assets/images/color-mixture.png)
 
