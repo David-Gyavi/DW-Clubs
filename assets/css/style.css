@@ -11,8 +11,40 @@ body {
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: lighter;
-    letter-spacing: 1rem
+    letter-spacing: 2px;
     background: linear-gradient(to right, black , blue);
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1)
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
 }
 
+.navbar-brand img {
+    padding-left: 1rem;
+    height: 3rem; 
+}
+
+.nav-item {
+    padding: 4rem;
+}
+
+.nav-link {
+    color:azure! important;
+}
+/*-----carousel-------*/>
+
+.carousel-caption {
+    position: absolute;
+    top: 53%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
+}
+
+.bg-caption {
+    background-color: rgba(0, 0, 0, .4);
+    color: #fff;
+    border-radius: 1rem;
+    border-color: 1px solid #fff; 
+}
+
+.carousel-caption h1 {
+    font-size: 3.0rem;
+    text-shadow:  .1rem .1rem .3rem rgba(0, 0, 0, .1);
+}
