@@ -2,34 +2,56 @@
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body {
+    overflow-x: hidden;
     width: 100%;
     font-family: 'Lora', serif;
-    color: #94989b;
+    color: #94989b;  
 }
 
-.navbar {
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: lighter;
-    letter-spacing: 2px;
-    background: linear-gradient(to right, black , blue);
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
+.navbar,
+.dropdown-menu  {
+      text-transform: uppercase;
+      font-size: 16px;
+      font-weight: 500;
+      letter-spacing: 2px;
+      background-image: linear-gradient(to right, black , blue);
 }
-
 .navbar-brand img {
     padding-left: 1rem;
-    height: 3rem; 
+    height: 4rem; 
 }
 
 .nav-item {
-    padding: 4rem;
+    padding: .4rem;
 }
 
 .nav-link {
-    color:azure! important;
+    color: #fbfbfb! important;
+    
 }
-/*-----carousel-------*/>
 
+.nav-link.active,
+.nav-link:hover,
+.dropdown-item:hover {
+    color:#B93993! important;
+}
+
+.navbar-nav li {
+   text-align: center; 
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: #B93993! important;
+}
+.dropdown-item {
+    background-image: linear-gradient(to right, black ,blue);
+    color: #fbfbfb! important;
+}
+
+/*-----End--Navbar-----*/
+
+/*-----carousel-------*/
 .carousel-caption {
     position: absolute;
     top: 53%;
@@ -41,10 +63,111 @@ body {
     background-color: rgba(0, 0, 0, .4);
     color: #fff;
     border-radius: 1rem;
-    border-color: 1px solid #fff; 
+    border: 2px solid #fff; 
 }
 
 .carousel-caption h1 {
     font-size: 3.0rem;
-    text-shadow:  .1rem .1rem .3rem rgba(0, 0, 0, .1);
 }
+/*-----End--carousel-------*/
+
+/*-----Buttons-------*/
+.btn-lg {
+    border-radius: 0;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border-width: medium;
+}
+
+.btn-primary {
+    background-color:#8a0256;
+    color: #fff; 
+    border: #B93993;  
+}
+
+.btn-primary:hover,
+.btn-primary:focus{
+      background-color: #B93993! important;
+      border:  #B93993! important;
+}
+
+.dw-clubs {
+    padding-bottom: 1rem;
+}
+
+.btn-success {
+   background-color:#8a0256; 
+   color: #fff; 
+   border: #B93993; 
+}
+
+.btn-success:hover,
+.btn-success:focus{
+      background-color: #B93993! important;
+      border:  #B93993! important;
+}
+
+/*-----End---Buttons-------*/
+
+/*------------Footers-------*/
+
+footer {
+background-image: linear-gradient(to right, blue , black);
+color: #fafafa;
+min-height: 120px;
+margin: 0;
+}
+.social-links {
+    padding-top: ;
+}
+
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px;
+    border-radius: 50%;
+    font-size: 13px;
+    text-align: center;
+    line-height: 7px;
+    color: #fafafa;
+    background-color: #8a0256;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.social-links li a i:hover {
+      background:  #B93993;
+}
+
+footer h5 {
+    padding-bottom: 15px;
+    text-transform: uppercase;
+}
+
+.lowercase {
+    text-transform: lowercase;
+}
+.logo-footer {
+    padding-top: 15px;
+    float: right; 
+}
+
+hr {
+    background-color: #fafafa;
+}
+
+.dw-copyright {
+    text-align: center;
+    font-weight: lighter;
+    font-size: small;
+}
+.footer-d_wa {
+    color: #B93993;
+}
+.footer-d_wa:hover {
+    color:  #fafafa;
+    text-decoration: none;
+}
+
