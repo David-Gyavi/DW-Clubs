@@ -1,7 +1,7 @@
 # DW: Clubs
 
 ___
-![Markdown Logo](assets/images/lady_pool.jpg)
+![Markdown Logo](assets/images/dw_lady-pool.jpg)
 <p>The biggest core and the reason of this Club is to keep people health and to sport.</p>
 
 ### Content
