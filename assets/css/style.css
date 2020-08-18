@@ -23,13 +23,17 @@ body {
     padding-left: 1rem;
     height: 4rem; 
 }
+.navbar.navbar-brand:hover,
+.navbar.navbar-brand:focus {
+    color: #B93993;
+}
 
 .nav-item {
-    padding: .4rem;
+    padding:;
 }
 
 .nav-link {
-    color: #fbfbfb! important;
+    color: #FEFEFE! important;
     
 }
 
@@ -42,6 +46,12 @@ body {
 .navbar-nav li {
    text-align: center; 
 }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	box-shadow: none;
+}
 
 .nav-link.active,
 .nav-link:hover {
@@ -49,7 +59,7 @@ body {
 }
 .dropdown-item {
     background-image: linear-gradient(to right, black ,blue);
-    color: #fbfbfb! important;
+    color: #FEFEFE! important;
 }
 
 /*-----End--Navbar-----*/
@@ -64,9 +74,9 @@ body {
 
 .bg-caption {
     background-color: rgba(0, 0, 0, .4);
-    color: #fff;
+    color: #FEFEFE;
     border-radius: 1rem;
-    border: 2px solid #fff; 
+    border: 2px solid #FEFEFE; 
 }
 
 .carousel-caption h1 {
@@ -84,7 +94,7 @@ body {
 
 .btn-primary {
     background-color:#8a0256;
-    color: #fff; 
+    color: #FEFEFE; 
     border: #B93993;  
 }
 
@@ -100,7 +110,7 @@ body {
 
 .btn-success {
    background-color:#8a0256; 
-   color: #fff; 
+   color: #FEFEFE; 
    border: #B93993; 
 }
 
@@ -111,14 +121,36 @@ body {
 }
 /*-----End---Buttons-------*/
 /*-----Four--Images-----*/
-.img-1 {
+.card-four-image {
    padding-bottom: 10px;
 }
+.card {
+    border: none;
+    padding-bottom: 1rem;
+}
+/*-----End Four--Images-----*/
+
+
+/*-----Happening-------*/
+
+#happening h2,p {
+    text-align: center;
+    padding-top: 1px;
+}
+#happen h2,p {
+     text-align: center;
+     padding-top: 1rem;
+}
+section {
+    padding-bottom: 0rem;
+}
+/*-----End--Happening-------*/
+
 /*------------Footers-------*/
 
 footer {
 background-image: linear-gradient(to right, blue , black);
-color: #fafafa;
+color: #FEFEFE;
 min-height: 120px;
 padding-top: 5px; 
 }
@@ -134,7 +166,7 @@ padding-top: 5px;
     font-size: 13px;
     text-align: center;
     line-height: 7px;
-    color: #fafafa;
+    color: #FEFEFE;
     background-color: #8a0256;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
@@ -160,7 +192,7 @@ footer h5 {
 }
 
 hr {
-    background-color: #fafafa;
+    background-color: #FEFEFE;
 }
 
 .dw-copyright {
@@ -172,7 +204,7 @@ hr {
     color: #B93993;
 }
 .footer-d_wa:hover {
-    color:  #fafafa;
+    color:  #FEFEFE
     text-decoration: none;
 }
 
