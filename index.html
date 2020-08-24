@@ -50,9 +50,9 @@
 					</li>
 				</ul>
 				<div class="navbar-nav ml-auto">
-					<a href="#" class="nav-item nav-link">Register</a>
+					<a href="#" class="nav-item nav-link" data-toggle="modal" data-target="#regesterModal">Register</a>
 					<span class="text-muted mx-1">|</span>
-					<a href="#" class="nav-item nav-link">Login</a>
+					<a href="#" data-toggle="modal" data-target="#logInModal" class="nav-item nav-link">Login</a>
 				</div>
 			</div>   
 	</nav>
@@ -278,7 +278,80 @@
 			<h4 class="dw-copyright">@Copyright 2020 DW Clubs Sports Ltd.</h4>
 		</div>
 	</footer>
-
+<!-----------------Forms--------------------------------------->
+<div class="modal" tabindex="-1" role="dialog" id="logInModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Log In To DW Clubs!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Username or email address:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password <a href="/password_reset" class="lable-link">Forgot password?</a>  
+                        </label>
+                        <input type="password" class="form-control" id="Password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="regesterModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title">Regester With DW Clubs!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="firstName">First Name:</label>
+                            <input type="firstName" class="form-control" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="firstName">Last Name:</label>
+                            <input type="lastName" class="form-control" id="lasstName" placeholder="Last Name">
+                        </div>
+                        <label for="exampleInputEmail1">Email address:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contact No:</label>
+                        <input type="text" class="form-control" id="contactNo" placeholder="Contact No">
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Password:</label>
+                        <input type="password" class="form-control" id="Password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="repeatPassword">Confirm Password:</label>
+                        <input type="confirmPassword" class="form-control" id="confirmPassword"
+                            placeholder="Confirm Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary justified-content-center">Regester</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------End----Forms----------------------------------->
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 	</script>
