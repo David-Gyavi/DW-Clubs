@@ -5,46 +5,31 @@ body {
     overflow-x: hidden;
     width: 100%;
     font-family: 'Lora', serif;
-    color: #94989b;
-    margin: 0;  
+    color: #94989b; 
 }
 
-.navbar,
-.dropdown-menu  {
+/*------Navbar-----*/
+.navbar {
+    display: flex;
       text-transform: uppercase;
-      font-size: 16px;
-      font-weight: 500;
+      font-size: 1rem;
+      font-weight: 300;
       letter-spacing: 2px;
       background-image: linear-gradient(to right, black , blue);
-      box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .1);
-      z-index: 1;
 }
 .navbar-brand img {
     padding-left: 1rem;
     height: 4rem; 
 }
-.navbar.navbar-brand:hover,
-.navbar.navbar-brand:focus {
-    color: #B93993;
-}
-
-.nav-item {
-    padding:;
-}
-
 .nav-link {
-    color: #FEFEFE! important;
-    
+    color: #FEFEFE! important;   
 }
-
 .nav-link.active,
-.nav-link:hover,
-.dropdown-item:hover {
+.nav-link:hover {
     color:#B93993! important;
 }
-
 .navbar-nav li {
-   text-align: center; 
+   padding-right: .2rem;
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -52,14 +37,20 @@ body {
 	outline: none;
 	box-shadow: none;
 }
-
-.nav-link.active,
-.nav-link:hover {
-    color: #B93993! important;
+.dropdown-menu {
+    background-image: linear-gradient(to right, black , blue);
+    border-color: none;
 }
 .dropdown-item {
-    background-image: linear-gradient(to right, black ,blue);
-    color: #FEFEFE! important;
+    color: #fbfbfb;
+    background-image: linear-gradient(to right, blue ,red);
+}
+.navalert-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 
 /*-----End--Navbar-----*/
@@ -128,6 +119,14 @@ body {
     border: none;
     padding-bottom: 1rem;
 }
+
+.container container-dw {
+    padding-right: 15px;
+    padding-left: 15px;
+
+    margin-right: auto;
+    margin-left: auto;
+}
 /*-----End Four--Images-----*/
 
 
@@ -141,9 +140,6 @@ body {
      text-align: center;
      padding-top: 1rem;
 }
-section {
-    padding-bottom: 0rem;
-}
 /*-----End--Happening-------*/
 
 /*------------Footers-------*/
@@ -151,11 +147,11 @@ section {
 footer {
 background-image: linear-gradient(to right, blue , black);
 color: #FEFEFE;
-min-height: 120px;
-padding-top: 5px; 
+min-height: 150px;
+margin: 0; 
 }
 .social-links {
-    padding-top: ;
+    padding-bottom: 15px;
 }
 
 .social-links li a i {
@@ -178,16 +174,13 @@ padding-top: 5px;
       background:  #B93993;
 }
 
-footer h5 {
-    padding-bottom: 15px;
+.uppercase {
     text-transform: uppercase;
 }
-
 .lowercase {
     text-transform: lowercase;
 }
 .logo-footer {
-    padding-top: 15px;
     float: right; 
 }
 
@@ -200,11 +193,28 @@ hr {
     font-weight: lighter;
     font-size: small;
 }
-.footer-d_wa {
-    color: #B93993;
+
+#footer-details {
+    padding: 20px;
+}
+
+.footer-d_w {
+    background-color: #B93993;
 }
 .footer-d_wa:hover {
     color:  #FEFEFE
     text-decoration: none;
 }
-
+.inline-block {
+    display: inline-block;
+    text-align: left;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+    font-family: 'Lora', serif;
+    color: #94989b;
+    margin: 0;  
+  }
+}
