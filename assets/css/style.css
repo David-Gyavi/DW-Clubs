@@ -142,7 +142,10 @@ body,html {
      padding-top: 1rem;
 }
 /*-----End--Happening-------*/
-
+.alerted-container {
+     padding-right: 15px;
+}
+}
 /*------------Footers-------*/
 
 footer {
