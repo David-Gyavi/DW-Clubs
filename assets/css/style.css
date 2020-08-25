@@ -1,7 +1,7 @@
 /*Imported font [work Noto+Sans] from google fonts,*/
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
-body {
+body,html {
     overflow-x: hidden;
     width: 100%;
     font-family: 'Lora', serif;
@@ -53,8 +53,6 @@ body {
     padding-right: 0;
 }
 
-/*-----End--Navbar-----*/
-
 /*-----carousel-------*/
 .carousel-caption {
     position: absolute;
@@ -62,16 +60,20 @@ body {
     transform: translateY(-50%);
     text-transform: uppercase;
 }
-
 .bg-caption {
     background-color: rgba(0, 0, 0, .4);
     color: #FEFEFE;
     border-radius: 1rem;
     border: 2px solid #FEFEFE; 
 }
-
 .carousel-caption h1 {
     font-size: 3.0rem;
+}
+.carouselalert-container {
+    left: 0;
+    right: 0;
+    padding-left: 0;
+    padding-right: 0;
 }
 /*-----End--carousel-------*/
 
@@ -198,8 +200,8 @@ hr {
     padding: 20px;
 }
 
-.footer-d_w {
-    background-color: #B93993;
+.footer-d_wa {
+    color: #B93993;
 }
 .footer-d_wa:hover {
     color:  #FEFEFE
@@ -209,9 +211,14 @@ hr {
     display: inline-block;
     text-align: left;
 }
+.footeralert-container {
+    position: absolute;
+    left: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
 @media only screen and (max-width: 600px) {
   body {
-    overflow-x: hidden;
     width: 100%;
     font-family: 'Lora', serif;
     color: #94989b;

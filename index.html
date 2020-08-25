@@ -19,12 +19,12 @@
 
 <!--Heading Navigation-->
 <div class="container-fluid navalert-container">
-	<nav class="navbar bg-dark navbar-dark sticky-top navbar-expand-sm">
+	<nav class="navbar bg-dark navbar-dark fixed-top navbar-expand-sm">
 		<a class="navbar-brand" href="index.html"><img src="assets/images/dw_logo.jpg" alt="logo"></a>
 			<button class="navbar-toggler" data-toggle="collapse" data-target="#navbarResponsive">
 	        <span class="navbar-toggler-icon"></span>
 	        </button>
-	
+
 			<div class="collapse navbar-collapse" id="navbarResponsive">
 				<ul class="navbar-nav mr-auto">
 					<li class="nav-item dropdown">
@@ -54,12 +54,12 @@
 					<span class="text-muted mx-1">|</span>
 					<a href="#" data-toggle="modal" data-target="#logInModal" class="nav-item nav-link">Login</a>
 				</div>
-			</div>   
+			</div>
 	</nav>
-    </div>
+</div>
     <!--End--Heading Navigation-->
 <article class="container-fluid">
-
+     <div class="container-fluid carouselalert-container">
 				<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
 					<ol class="carousel-indicators">
 						<li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
@@ -113,6 +113,7 @@
 						<span class="sr-only">Next</span>
 					</a>
 				</div>
+     </div>
 	<!---Main--Page-->
 	 
      <div class="col-12 text-center mt-6 dw-clubs">
@@ -120,7 +121,7 @@
 			<p class="clubs">
 				we’re delighted that our clubs are now fully open. all facilities and activities will be available.
 			</p>
-			<a href="#" class="btn btn-primary btn-lg m-auto hvr-float-shadow">Join Now</a>
+			<a href="#" class="btn btn-primary btn-lg m-auto hvr-float-shadow" data-toggle="modal" data-target="#regesterModal">Join Now</a>
 		</div>
 	<section class="container container-dw">
 		<div class="row justify-content-center align-items-center mt-5 mb-5">
@@ -144,8 +145,6 @@
 					</div>
 				</div>
 			</div>
-		</div>
-		<div class="row justify-content-center align-items-center mt-5 mb-5">
 			<div class="card-four-image">
 				<div class="col-12 col-md-6 col-lg-4">
 					<div class="card m-auto">
@@ -167,7 +166,6 @@
 				</div>
 			</div>
 		</div>
-	
 	</section>
 	<!---End-Main-Page-->
 	
@@ -196,9 +194,9 @@
 </article>    
 	<!---Footer---------->
 	
-	<footer class="container-fluid">
+	<footer class="container-fluid footeralert-container">
 		<div id="footer-details" class="row">
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<h5 class="uppercase general-sub">About</h5>
 				<p class="inline-block">
 					As Europe’s leading health, sports and leisure group,
@@ -209,7 +207,7 @@
 					sustainable environment.
 				</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<h5 class="uppercase general-sub">Contacts</h5>
 				<p class="inline-block">
 					Dw Club Beek Bv <br>
@@ -219,7 +217,7 @@
 					<a href="d_wasswa@yahoo.com" class="footer-d_wa">d_wasswa@yahoo.com</a>
 				</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<h5 class="uppercase general-sub">Follow-Us</h5>
 				<ul class="list-inline social-links">
 					<li class="list-inline-item">
@@ -260,7 +258,7 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-sm-3">
 				<h5 class="lowercase page">Subscribe Our Page</h5>
 				<input type="text" name="subscribe" placeholder="Enter Email" class="form" required="">
 				<button
@@ -291,7 +289,7 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label for="exampleInputEmail1">Username or email address:</label>
+                        <label for="exampleInputEmail1">Username or email address:<span class="sr-only">(active)</span></label>
                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                             placeholder="Enter email">
                     </div>
