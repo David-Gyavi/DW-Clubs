@@ -142,9 +142,10 @@ body,html {
      padding-top: 1rem;
 }
 /*-----End--Happening-------*/
-.alerted-container {
-     padding-right: 15px;
-}
+.img-fluid-happening {
+   width: 100%;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
 }
 /*------------Footers-------*/
 
