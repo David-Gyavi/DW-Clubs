@@ -55,6 +55,170 @@
 	</nav>
 </div>
     <!--End--Heading Navigation-->
-    
+
+<footer class="container-fluid footeralert-container">
+		<div id="footer-details" class="row">
+			<div class="col-sm-3">
+				<h5 class="uppercase general-sub">About</h5>
+				<p class="inline-block">
+					As Europe’s leading health, sports and leisure group,
+					DW Clubs has been helping families lead healthy and
+					active
+					lives for more than 30 years.
+					We recognise the importance of our role and responsibility in contributing to a healthy society and a
+					sustainable environment.
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<h5 class="uppercase general-sub">Contacts</h5>
+				<p class="inline-block">
+					Dw Club Beek Bv <br>
+	            6802 TC Arnhem <br>
+	            Bredalist Street 32<br>
+	            +31 6849587201 <br>
+					<a href="d_wasswa@yahoo.com" class="footer-d_wa">d_wasswa@yahoo.com</a>
+				</p>
+			</div>
+			<div class="col-sm-3">
+				<h5 class="uppercase general-sub">Follow-Us</h5>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-facebook fa-2x" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-twitter fa-2x" aria-hidden="true"></i>
+							<span class="sr-only">Twitter</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-linkedin-in fa-2x" aria-hidden="true"></i>
+							<span class="sr-only">LinkedIn</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-github fa-2x" aria-hidden="true"></i>
+							<span class="sr-only">Github</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-instagram fa-2x" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a target="_blank" href="#">
+							<i class="fab fa-youtube fa-2x" aria-hidden="true"></i>
+							<span class="sr-only">YouTube</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="col-sm-3">
+				<h5 class="lowercase page">Subscribe Our Page</h5>
+				<input type="text" name="subscribe" placeholder="Enter Email" class="form" required="">
+				<button
+	            class="btn btn-success btn-lg ml-2">
+	            Submit
+	          </button>
+				
+			</div>
+            <div class="col">
+                <a href="index.html"><img class="logo-footer" src="assets/images/dw_logo.jpg" alt="logo"></a>
+            </div>
+		</div>
+		<hr>
+		<div class="container">
+			<h4 class="dw-copyright">@Copyright 2020 DW Clubs Sports Ltd.</h4>
+		</div>
+	</footer>
+ <!-----------------Forms--------------------------------------->
+<div class="modal" tabindex="-1" role="dialog" id="logInModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-dark">Log In To DW Clubs!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <label for="exampleInputEmail1">Username or email address:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password <a href="/password_reset" class="lable-link">Forgot password?</a>  
+                        </label>
+                        <input type="password" class="form-control" id="Password" placeholder="Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Log In</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="modal" tabindex="-1" role="dialog" id="regesterModal">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title text-dark">Regester With DW Clubs!</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <label for="firstName">First Name:</label>
+                            <input type="firstName" class="form-control" id="firstName" placeholder="First Name">
+                        </div>
+                        <div class="form-group">
+                            <label for="firstName">Last Name:</label>
+                            <input type="lastName" class="form-control" id="lasstName" placeholder="Last Name">
+                        </div>
+                        <label for="exampleInputEmail1">Email address:</label>
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                            placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Contact No:</label>
+                        <input type="text" class="form-control" id="contactNo" placeholder="Contact No">
+                    </div>
+                    <div class="form-group">
+                        <label for="Password">Password:</label>
+                        <input type="password" class="form-control" id="Password" placeholder="Password">
+                    </div>
+                    <div class="form-group">
+                        <label for="repeatPassword">Confirm Password:</label>
+                        <input type="confirmPassword" class="form-control" id="confirmPassword"
+                            placeholder="Confirm Password">
+                    </div>
+                    <button type="submit" class="btn btn-primary justified-content-center">Regester</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------End----Forms----------------------------------->
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+	</script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+	</script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+	</script>    
 </body>
 </html>

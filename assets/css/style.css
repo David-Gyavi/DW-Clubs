@@ -144,8 +144,8 @@ body,html {
 /*-----End--Happening-------*/
 .img-fluid-happening {
    width: 100%;
-    padding-right: 1rem;
-    padding-bottom: 1rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
 }
 /*------------Footers-------*/
 
