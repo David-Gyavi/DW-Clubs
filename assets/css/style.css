@@ -54,29 +54,38 @@ body,html {
 }
 
 /*-----carousel-------*/
-.carousel-caption {
+.caption {
+    width: 100%;
+    max-width: 100%;
     position: absolute;
-    top: 53%;
-    transform: translateY(-50%);
-    text-transform: uppercase;
-}
-.bg-caption {
     background-color: rgba(0, 0, 0, .4);
     color: #FEFEFE;
     border-radius: 1rem;
     border: 2px solid #FEFEFE; 
+    z-index: 1;
+    padding-left: 0;
+    padding-right: 0;
+}
+.carousel-caption {
+    top: 59%;
+    transform: translateY(-50%);
+    text-transform: uppercase;
 }
 .carousel-caption h1 {
-    font-size: 3.0rem;
+    padding-top: 5px;
+    font-size: 300%;
+    font-weight: 500;
+   
 }
 .carouselalert-container {
     left: 0;
     right: 0;
-    padding-left: 0;
-    padding-right: 0;
 }
 /*-----End--carousel-------*/
-
+/*-----Landing-2--page-------*/
+.home-inner {
+    background-image: url(../images/dw_yoga-leisure.jpg);
+}
 /*-----Buttons-------*/
 .btn-lg {
     border-radius: 0;
@@ -118,6 +127,7 @@ body,html {
    padding-bottom: 10px;
 }
 .card {
+    width: 100%;
     border: none;
     padding-bottom: 1rem;
 }
@@ -142,10 +152,15 @@ body,html {
      padding-top: 1rem;
 }
 /*-----End--Happening-------*/
-.img-fluid-happening {
+.img-fluid{
    width: 100%;
-    padding: 1rem;
-    margin-bottom: 1rem;
+   height: 80px;
+   padding: 1rem;
+   margin-bottom: 1rem;
+}
+.img-thumbnail {
+    padding: .5rem;
+    border: 2px solid #010830
 }
 /*------------Footers-------*/
 
