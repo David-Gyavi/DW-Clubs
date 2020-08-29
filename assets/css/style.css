@@ -15,14 +15,13 @@ body,html {
       font-size: 1rem;
       font-weight: 300;
       letter-spacing: 2px;
-      background-image: linear-gradient(to right, black , blue);
 }
 .navbar-brand img {
     padding-left: 1rem;
     height: 4rem; 
 }
 .nav-link {
-    color: #FEFEFE! important;   
+    color: #fff! important;   
 }
 .nav-link.active,
 .nav-link:hover {
@@ -36,6 +35,9 @@ body,html {
 .navbar-toggler-icon:focus {
 	outline: none;
 	box-shadow: none;
+}
+.navbar .navbar-toggle {
+    color: #fff;
 }
 .dropdown-menu {
     background-image: linear-gradient(to right, black , blue);
@@ -124,10 +126,13 @@ body,html {
 /*-----End---Buttons-------*/
 /*-----Four--Images-----*/
 .card-four-image {
-   padding-bottom: 10px;
+   padding-bottom: 5px;
+   
 }
 .card {
     width: 100%;
+    width: 400px;
+    height: 250px;
     border: none;
     padding-bottom: 1rem;
 }
