@@ -53,9 +53,9 @@ body,html {
 /*-----carousel-------*/
 
 .carousel-caption {
+    
     top: 59%;
     transform: translateY(-50%);
-    text-transform: uppercase;
 }
 .carousel-caption h1 {
     font-size: 300%;
@@ -66,14 +66,17 @@ body,html {
     text-align: center;
     border-radius: 1rem;
 
-    padding-top: 5px;
+    padding-top: 15px;
     padding-left: 5px;
-    padding-bottom: 5px;
-   
+    padding-bottom: 5px; 
 }
 .carouselalert-container {
+   
     left: 0;
     right: 0;
+}
+.carousel-inner {
+      background-size: cover;
 }
 /*-----End--carousel-------*/
 /*-----Landing-2--page-------*/
