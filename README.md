@@ -154,3 +154,11 @@ was just trying to look on different kind of gym site and picking some different
 The project has got three parts but they are laid on one single page.
 * __Results__  The font Lora brought out the lay out in a perfect way matching with the blue color and white for the navbar and the footer. At 
 first i had made my navbar and footer with a background image blueblack gradient but later i changed to dark blue which is really good for the project.
+
+### Header & Navbar:
+* Plan: The header consis of a __navbar__ and is responsive.
+
+* __Implementation__: I used  the different sections of the HTML page. The navbar is a Boostrap navbar. It will collapse the navlinks into an icon at smaller screensizes. I customized this for my likings ie my logo and other links on the navbar.
+* __Test__: I test the responsivness of the header by opening the website in chrome and then resizing the window. I Also doublecheck in the chrome dev-tools, sometimes these two differs, the more correct one is the dev-tools one. I also doublechecked and looked at my website through my phone. I test to see if my navlinks works by clicking them. I use the dev-tools to see if my navlinks collapse into my chosen icon properly.
+* __Results:__ The header work as intended. It is fully responsive on all screensizes. The navbar looks correct and the navlinks properly links to the different HTML-section linked. The navlinks correctly collapse into an icon at smaller sizes.
+* __Verdict:__ The worked as i wanted and it has passed the test.
