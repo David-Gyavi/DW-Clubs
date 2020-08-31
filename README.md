@@ -91,6 +91,30 @@ These are the colors i will be using in my entire websit.
 
 ![Markdown Logo](assets/images/color-mixture.png)
 
+## Wireframes:
+For my wireframing is i used apen Prototyping. I found this was really easy for me use. And it helped me to to whatr ever i wanted
+and to see how it is on different screen sizes.
+
+To be more clear of what i did, here are my Wireframes.
+
+ ## Desktop Wireframe
+Desktop Wireframe can easily be found [desktop]()
+## Tablet Wireframe
+Tablet Wireframe can easily be found [tablet]()
+## Mobile Wireframe
+Mobile Wireframe can easily be found [mobile]()
+
+My plan was to make different kind of landing pages but after a good talk with my mentor it was better
+to make one page with multiple sections connected to links provided.
+
+
+## Features:
+___
+### Features that have been developed in my project:
+* __I__ used __bootstrap__ on __navlinks__
+* __Carousel__ for presenting three different kind of images
+* __Navbar collapses__ on smaller screen sizes 
+
 
 ### Styling:
 For my project am using bootstrap as my major styling foundation but still togather we the help of css and JQuery too.
@@ -113,3 +137,20 @@ ___
 
 ## Testing:
 ___
+It's very important to validate a project so that the site is responsive and really attractive to the user
+And i have also tried to check the spelling to see wheather wjhat i wrote make sense. 
+But i have also validated the code with __W3Schools CSS and HTML__ validator.
+
+
+
+### Responsiveness
+* __Implementation__ In this project i have used bootstrap to ensure maxmum  __Responsiveness__.
+* __Responsiveness__ was as to be expected, except for the navbar, which did so collapse on click by following the teaching and reapeating them to get sure how to apply the JavaScript links which helps the toggle and the dropdwn lists. I felt good that it worked.
+
+### Design
+
+* __Implementation__ The design of the project was just thought of and trying to impliment it in a real world,
+was just trying to look on different kind of gym site and picking some different kind of pictures, but i had just used olny the pictures not less than that.
+The project has got three parts but they are laid on one single page.
+* __Results__  The font Lora brought out the lay out in a perfect way matching with the blue color and white for the navbar and the footer. At 
+first i had made my navbar and footer with a background image blueblack gradient but later i changed to dark blue which is really good for the project.
