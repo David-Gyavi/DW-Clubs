@@ -162,3 +162,9 @@ first i had made my navbar and footer with a background image blueblack gradient
 * __Test__: I test the responsivness of the header by opening the website in chrome and then resizing the window. I Also doublecheck in the chrome dev-tools, sometimes these two differs, the more correct one is the dev-tools one. I also doublechecked and looked at my website through my phone. I test to see if my navlinks works by clicking them. I use the dev-tools to see if my navlinks collapse into my chosen icon properly.
 * __Results:__ The header work as intended. It is fully responsive on all screensizes. The navbar looks correct and the navlinks properly links to the different HTML-section linked. The navlinks correctly collapse into an icon at smaller sizes.
 * __Verdict:__ The worked as i wanted and it has passed the test.
+
+### Carousel Section:
+* __Plan:__ **Use** some kind of slides images to represent different kind  of the gyms. It should be fully responsive and attractive.
+* **Implementation:** I used google to search for different kind of images to use . and with this i used bootstrap for my Carousel image making them to fit the whole screen with the help of some css to look responsive.
+* __Results:__ My Carousel images worked well just as i like  maybe because i just copied the whole code as it was in bootstrap.
+* __Verdict:__ The Carousel images passed all the test.
