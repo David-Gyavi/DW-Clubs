@@ -144,9 +144,9 @@ body,html {
 /*------------Footers-------*/
 
 footer {
-background-image: linear-gradient(to right, blue , black);
+background-color: #041ee4;
 color: #FEFEFE;
-min-height: 150px;
+min-height: 120px;
 margin: 0; 
 }
 .social-links {
