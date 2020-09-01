@@ -121,6 +121,10 @@ body,html {
 .four-image {
     height: 150px;
 }
+.img-responsive{
+   width: 100%;
+   padding-bottom: 1rem;
+}
 /*-----Happening-------*/
 
 #happening h2,p {
@@ -132,9 +136,9 @@ body,html {
      padding-top: 1rem;
 }
 /*-----End--Happening-------*/
-.img-fluid{
+.img-responsive{
    width: 100%;
-   padding: 1rem;
+   padding-bottom: 1rem;
    margin-bottom: 1rem;
 }
 .ten {
