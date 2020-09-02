@@ -148,7 +148,7 @@ div.folder img {
   height: 100px;
 }
 .different-clubs {
-  padding: 0 6px;
+  padding: 1rem;
   float: left;
   width: 24.99999%;
 }
@@ -167,7 +167,7 @@ div.folder img {
 
 /*--Fitness Page--*/
 
-.image-hero {
+.hero-image {
     clear: both;
     background: url('../images/swim1.jpg');
     background-repeat: no-repeat;
@@ -175,6 +175,17 @@ div.folder img {
     /*min-height: 70vh;*/
     height: 500px; 
     background-position: center;
+}
+#fitness.html {
+    padding: 1rem;
+}
+@keyframes hero-image {
+    from{
+        transform: scale(1);
+    } 
+    to{
+        transform: scale(1.1);
+    }
 }
 /*--Footers--*/
 
