@@ -179,6 +179,16 @@ div.folder img {
 #fitness.html {
     padding: 1rem;
 }
+.info-content {
+    display: flex;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    padding: .5rem;
+    width: 90%;
+}
+.info-content .col {
+    width: 100%;
+}
 @keyframes hero-image {
     from{
         transform: scale(1);
