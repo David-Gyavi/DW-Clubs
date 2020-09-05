@@ -154,19 +154,6 @@ div.folder img {
   float: left;
   width: 24.99999%;
 }
-@media only screen and (max-width: 1393px) {
-  .different-clubs {
-    width: 49.99999%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 943px) {
-  .different-clubs {
-    width: 100%;
-  }
-}
-
 /*--Fitness Page--*/
 
 .hero-image {
@@ -178,31 +165,28 @@ div.folder img {
     height: 500px; 
     background-position: center;
 }
-#fitness.html {
-    padding: 1rem;
-}
-.info-content {
-    display: flex;
-    margin-top: 10px;
-    margin-bottom: 10px;
-    padding: 10px;
-    width: 100%;
-}
 .para-text {
+    text-align: left;
+    font-size: 1rem;
     width: 70%;
 }
-.info-content .para-content {
+.title-head {
     text-align: left;
-    display: flex;
-    width: 65%
+    text-transform: uppercase; 
+    width: 70%;
 }
-@keyframes hero-image {
-    from{
-        transform: scale(1);
-    } 
-    to{
-        transform: scale(1.1);
-    }
+.fitness-page {
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+}
+.fitness-page img {
+    width: 600px;
+    height: 400px;
+}
+.hover:hover {
+    transform: scale(1.1);
+    transition-timing-function: ease-in-out;
+    transition-duration: 1.3s;
 }
 /*--Footers--*/
 
@@ -281,11 +265,22 @@ hr {
     padding-left: 0;
     padding-right: 0;
 }
-@media only screen and (max-width: 600px) {
-  body {
-    width: 100%;
-    font-family: 'Lora', serif;
-    color: #94989b;
-    margin: 0;  
+@media only screen and (max-width: 1393px) {
+  .different-clubs {
+    width: 40%;
+    margin: 6px 0;
   }
+}
+@media only screen and (max-width: 943px) {
+  .different-clubs {
+    width: 100%;
+  }
+}
+@keyframes hero-image {
+    from{
+        transform: scale(1);
+    } 
+    to{
+        transform: scale(1.1);
+    }
 }
