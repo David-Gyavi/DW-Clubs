@@ -155,7 +155,12 @@ div.folder img {
   width: 24.99999%;
 }
 /*--Fitness Page--*/
-
+.title-fit {
+    text-align: center;
+    width: 100%;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
 .hero-image {
     clear: both;
     background: url('../images/swim1.jpg');
