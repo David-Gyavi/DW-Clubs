@@ -164,7 +164,15 @@ first i had made my navbar and footer with a background image blueblack gradient
 * __Verdict:__ The worked as i wanted and it has passed the test.
 
 ### Carousel Section:
-* __Plan:__ **Use** some kind of slides images to represent different kind  of the gyms. It should be fully responsive and attractive.
+* __Plan:__ **Use** some kind of slides images to represent different kind  of the gyms to go to. I made three different slide images with caption in the middle of each image. It should be fully responsive and attractive.
 * **Implementation:** I used google to search for different kind of images to use . and with this i used bootstrap for my Carousel image making them to fit the whole screen with the help of some css to look responsive.
 * __Results:__ My Carousel images worked well just as i like  maybe because i just copied the whole code as it was in bootstrap.
 * __Verdict:__ The Carousel images passed all the test.
+
+### Photos And Text About The Site:
+* **Plan:** I added a container-fluid in a navbar with Carousel image in the middle i had to put a Carousel caption with words about the gym. in pictures there
+are people working out or something about the gym. And everything am gonna do will be about the gym.
+* **Implementation:** I created a div container and within a div container i had create another div class carouselindicators within div carouselindicators i created 
+a div class carousel-inner so i had to fix the three images within the carousel-inner to try make them my slide images.
+The images i have used have found them on google just through searching for the better ones .
+* **Test:** To see if everything works as intended I always use the chrome dev-tools to see what it would look like on different screen sizes.  
