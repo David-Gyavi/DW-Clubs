@@ -181,5 +181,9 @@ The images i have used have found them on google just through searching for the 
 
 ### The Main Page:
 * __Plan:__ To this main page i made it that it is clear for a viewer to easily acess the button for joining the club and some paragraphs which are meaningful about the site.
-* __Implementation:__ I created a div section container and within the div i created more other four divs each giving it a photo and a paragraph of one word each, but all the images are about gym activities.
+* __Implementation:__ I created a div section container and within the div i created more other four divs each giving it a photo and a paragraph of one word each, but all the images are about gym activities. 
+In the styling of this i used bootstrap to design it out.
+* __Test__ I had no issues with this section when i was testing it and i have also tried it with w3school validate and it passed it.
+* __Results__ Everything worked well .
+* __Verdict__ The images are working well as i wanted when i hover over mouse they zoom out and mouse out they zoom in.
 
