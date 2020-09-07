@@ -169,10 +169,17 @@ first i had made my navbar and footer with a background image blueblack gradient
 * __Results:__ My Carousel images worked well just as i like  maybe because i just copied the whole code as it was in bootstrap.
 * __Verdict:__ The Carousel images passed all the test.
 
-### Photos And Text About The Site:
+### Photos And Texts About The Site:
 * **Plan:** I added a container-fluid in a navbar with Carousel image in the middle i had to put a Carousel caption with words about the gym. in pictures there
 are people working out or something about the gym. And everything am gonna do will be about the gym.
 * **Implementation:** I created a div container and within a div container i had create another div class carouselindicators within div carouselindicators i created 
 a div class carousel-inner so i had to fix the three images within the carousel-inner to try make them my slide images.
 The images i have used have found them on google just through searching for the better ones .
-* **Test:** To see if everything works as intended I always use the chrome dev-tools to see what it would look like on different screen sizes.  
+* **Test:** To see if everything works as intended I always use the chrome dev-tools to see what it would look like on different screen sizes.
+* **Results:** Everything looks fine and works well as expected.
+* __Verdict:__ The images & text about the project passed all the tests. 
+
+### The Main Page:
+* __Plan:__ To this main page i made it that it is clear for a viewer to easily acess the button for joining the club and some paragraphs which are meaningful about the site.
+* __Implementation:__ I created a div section container and within the div i created more other four divs each giving it a photo and a paragraph of one word each, but all the images are about gym activities.
+
