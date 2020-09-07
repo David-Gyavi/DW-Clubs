@@ -187,3 +187,6 @@ In the styling of this i used bootstrap to design it out.
 * __Results__ Everything worked well .
 * __Verdict__ The images are working well as i wanted when i hover over mouse they zoom out and mouse out they zoom in.
 
+### The Happening Page:
+* __Plan:__ Icreated a div section container within it i put another div column  then with in it i created a H1 giving it pt-4 as my heading for the section. I used bootstrap code to make the card images  
+of which i added there two images and with some paragraphs. I got my images on google and my text i set it to the default color of the body and my headings are set to the dark
