@@ -188,5 +188,9 @@ In the styling of this i used bootstrap to design it out.
 * __Verdict__ The images are working well as i wanted when i hover over mouse they zoom out and mouse out they zoom in.
 
 ### The Happening Page:
-* __Plan:__ Icreated a div section container within it i put another div column  then with in it i created a H1 giving it pt-4 as my heading for the section. I used bootstrap code to make the card images  
-of which i added there two images and with some paragraphs. I got my images on google and my text i set it to the default color of the body and my headings are set to the dark
+* __Plan:__ I created a div section container, within it i put another div column  then with in it i created a H1 giving it pt-4 as my heading for the section. I used bootstrap code to make the card images.  
+Of which i added there two images and with some paragraphs. I got my images on google and my text i set it to the default color of the body and my headings are set to the dark.
+* __Implementation:__ I created a div container nd within that container i added a **column** and  the column is for __heading h2__ and the __paragraphs__, i created another column for the images, its the same thing i did for each image and paragraph.
+* __Test:__ To see how the site works i always try to use the dev tool to see the resize of the web on different size screen.
+* **Results:** Everything looks fine as it is  expected.
+* __Verdict:__ The images & text about the gym passed all the tests.
