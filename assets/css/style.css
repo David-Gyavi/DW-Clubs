@@ -135,25 +135,16 @@ body,html {
     text-align: left;
 }
 /*--Different Clubs------*/
-div.folder {
-  border: 1px solid #ccc;
-}
-div.folder:hover {
-  border: 1px solid #777;
-}
-
-div. {
-  border: 1px solid #ccc;
-}
-div.folder img {
-  width: 100%;
-  height: 100px;
-}
-.different-clubs {
-  padding: 1rem;
-  float: left;
-  width: 24.99999%;
-}
+.different-clubs div {
+    width: 20%;
+    float: left;
+    padding: 5px;
+    margin: 4px;
+ }
+ .container. different-clubs {
+     overflow: ;
+     width: 100%;  
+ }
 /*--Fitness Page--*/
 .title-fit {
     text-align: center;
