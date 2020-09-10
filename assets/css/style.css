@@ -135,16 +135,7 @@ body,html {
     text-align: left;
 }
 /*--Different Clubs------*/
-.different-clubs div {
-    width: 20%;
-    float: left;
-    padding: 5px;
-    margin: 4px;
- }
- .container. different-clubs {
-     overflow: ;
-     width: 100%;  
- }
+
 /*--Fitness Page--*/
 .title-fit {
     text-align: center;

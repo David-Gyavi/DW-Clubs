@@ -100,7 +100,10 @@ To be more clear of what i did, here are explanations about my **wireframes.**
 ##### Desktop Wireframe.
 ##### Tablet Wireframe.
 ##### Mobile Wireframe.
-In the planing of this project i thought maybe i would make three different pages but i found out that it better to make two pages on one page, so in doing this i made the links to be internal.
+In the planing of this project i thought maybe i would make three different pages but i found out that it's better to make two pages on one page, so in doing this i made the links to be internal.
+I made my wireframe with a pen style just normal drawing since it was my first time to land in these things of wireframe designing but still am trying my best to learn more __UI and UX__ design.
+In this wireframe planing of the project i made three big images as my welcome images but in carousel form sliding next to eachother and making my nav links having a plain backgroud of these three images followed by caption in the middle which made it ot look nice giving it a tranparent black and a white border.
+
 
 My plan was to make different kind of landing pages but after a good talk with my mentor it was better
 to make one page with multiple sections connected to links provided.
