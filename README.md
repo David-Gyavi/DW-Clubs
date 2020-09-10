@@ -98,7 +98,7 @@ and to see how it is on different screen sizes.
 To be more clear of what i did, here are my Wireframes.
 
  ## Desktop Wireframe
-Desktop Wireframe can easily be found [desktop]()
+Desktop Wireframe can easily be found [desktop](https://github.com/David-Gyavi/DW-Clubswireframe/desktop.png)
 ## Tablet Wireframe
 Tablet Wireframe can easily be found [tablet]()
 ## Mobile Wireframe
