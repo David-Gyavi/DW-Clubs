@@ -95,14 +95,12 @@ These are the colors i will be using in my entire websit.
 For my wireframing is i used apen Prototyping. I found this was really easy for me use. And it helped me to to whatr ever i wanted
 and to see how it is on different screen sizes.
 
-To be more clear of what i did, here are my Wireframes.
+To be more clear of what i did, here are explanations about my **wireframes.**
 
- ## Desktop Wireframe
-Desktop Wireframe can easily be found [desktop](https://github.com/David-Gyavi/DW-Clubswireframe/desktop.png)
-## Tablet Wireframe
-Tablet Wireframe can easily be found [tablet]()
-## Mobile Wireframe
-Mobile Wireframe can easily be found [mobile]()
+##### Desktop Wireframe.
+##### Tablet Wireframe.
+##### Mobile Wireframe.
+In the planing of this project i thought maybe i would make three different pages but i found out that it better to make two pages on one page, so in doing this i made the links to be internal.
 
 My plan was to make different kind of landing pages but after a good talk with my mentor it was better
 to make one page with multiple sections connected to links provided.
