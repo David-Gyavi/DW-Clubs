@@ -135,7 +135,14 @@ body,html {
     text-align: left;
 }
 /*--Different Clubs------*/
-
+.go-clubs img {
+    width: 100%;
+    min-height: 20vh;
+    padding-bottom: 2px;
+}
+.go-clubs {
+    padding-bottom: 1rem;
+}
 /*--Fitness Page--*/
 .title-fit {
     text-align: center;
