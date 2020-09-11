@@ -195,3 +195,7 @@ Of which i added there two images and with some paragraphs. I got my images on g
 * __Test:__ To see how the site works i always try to use the dev tool to see the resize of the web on different size screen.
 * **Results:** Everything looks fine as it is  expected.
 * __Verdict:__ The images & text about the gym passed all the tests.
+
+### Different Clubs To Go To:
+* I created a div section container in it i added div column for my h1 heading. And after that i created another div section container
+in it i added div row container, within the div row i added a div column for my images.
