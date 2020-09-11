@@ -191,11 +191,17 @@ In the styling of this i used bootstrap to design it out.
 ### The Happening Page:
 * __Plan:__ I created a div section container, within it i put another div column  then with in it i created a H1 giving it pt-4 as my heading for the section. I used bootstrap code to make the card images.  
 Of which i added there two images and with some paragraphs. I got my images on google and my text i set it to the default color of the body and my headings are set to the dark.
-* __Implementation:__ I created a div container nd within that container i added a **column** and  the column is for __heading h2__ and the __paragraphs__, i created another column for the images, its the same thing i did for each image and paragraph.
+* __Implementation:__ I created a div container and within that container i added a **column** and  the column is for __heading h2__ and the __paragraphs__, i created another column for the images, its the same thing i did for each image and paragraph.
 * __Test:__ To see how the site works i always try to use the dev tool to see the resize of the web on different size screen.
 * **Results:** Everything looks fine as it is  expected.
 * __Verdict:__ The images & text about the gym passed all the tests.
 
 ### Different Clubs To Go To:
-* I created a div section container in it i added div column for my h1 heading. And after that i created another div section container
-in it i added div row container, within the div row i added a div column for my images.
+* __Plan:__ I created a div section container in it i added div column for my h1 heading. And after that i created another div section container
+in it i added div row container, within the div row i added a div column for my images. But in here i had to create two different rows and each row had to contain four images setting them inline-block.
+* __Implementation:__ I created a container, in this container i added a two  rows each with four columns making the  images responsiveon media.
+* __Test:__ I always test using a dev tool to help me find out the perfection of what am looking for ,so it worked out as i wanted.
+* **Results:** Everything looks pretty good.
+* **Verdict:** The div section class and the div class paased the test.
+
+
