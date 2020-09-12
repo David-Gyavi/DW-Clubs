@@ -1,4 +1,4 @@
-/*Imported font [work Noto+Sans] from google fonts,*/
+/*Imported font [work Lora+Sans] from google fonts,*/
 @import url('https://fonts.googleapis.com/css2?family=Lora&display=swap');
 
 body,html {
@@ -18,8 +18,8 @@ body,html {
 }
 .navbar-brand img {
     padding-left: 1rem;
-    width: 80px;
-    height: 80px;
+    width: 100%;
+    height: auto;
     border-radius: 50%;
 }
 .nav-link {
@@ -32,15 +32,7 @@ body,html {
 .navbar-nav li {
    padding-right: .2rem;
 }
-.navbar-toggler:focus,
-.navbar-toggler:active,
-.navbar-toggler-icon:focus {
-	outline: none;
-	box-shadow: none;
-}
-.navbar-toggler {
-    color: #fff;
-}
+
 .navalert-container {
     position: absolute;
     top: 0;
@@ -48,10 +40,22 @@ body,html {
     padding-left: 0;
     padding-right: 0;
 }
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+	outline: none;
+	box-shadow: none;
+}
+.navbar .navbar-toggle {
+  border-color: #8e44ad;
+}
+.navbar-toggler-icon {
+	background: url('https://i.ya-webdesign.com/images/hamburger-menu-icon-png-white-6.png') no-repeat center center;
+	background-size: 100% 100%;
+}
 /*--carousel--*/
 
-.carousel-caption {
-    
+.carousel-caption {  
     top: 59%;
     transform: translateY(-50%);
 }
