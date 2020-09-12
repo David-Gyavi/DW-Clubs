@@ -41,9 +41,6 @@ body,html {
 .navbar-toggler {
     color: #fff;
 }
-.dropdown-menu {   
-    border-value: none;
-}
 .navalert-container {
     position: absolute;
     top: 0;
@@ -216,9 +213,6 @@ margin: 0;
 
 .uppercase {
     text-transform: uppercase;
-}
-.lowercase {
-    text-transform: ;
 }
 .logo-footer {
     float: right; 

@@ -204,4 +204,11 @@ in it i added div row container, within the div row i added a div column for my 
 * **Results:** Everything looks pretty good.
 * **Verdict:** The div section class and the div class paased the test.
 
+### Club Fitness:
 
+* **Plan** I created a div class and i gave it a name hero-image ,in it i created a row and in it i added a column so that the image looks good for the image to fit the screen.
+* __Implementation:__ This background image i used it to represent the fit of what people get when they join our club. I made it wide to fit the screen because this represent another page but i made it all on one page.
+And also to bring out a clear image of what is really done at the club. I also added a text DW clubs Fitness to be overlayed by the image and i gave it an id so that when you go to the navbar and click , it just dirrect you to this page.
+* __Test:__ It's looking just fine as i wanted after trying out my code in the dev-tool.
+* **Results:** It is resizable just as i wanted.
+* __Verdict:__ The div classes passed the test.
