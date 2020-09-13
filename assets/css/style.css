@@ -27,7 +27,7 @@ body,html {
     
 }
 .nav-link {
-    color: #fff! important;   
+    color: #FEFEFE;! important;   
 }
 .nav-link.active,
 .nav-link:hover {
@@ -50,8 +50,9 @@ body,html {
 	outline: none;
 	box-shadow: none;
 }
-.navbar .navbar-toggle {
-  border-color: #8e44ad;
+.fas {
+    border-color: 0;
+    color: #FEFEFE;;
 }
 .navbar-toggler-icon {
 	background: url('https://i.pinimg.com/736x/ee/c0/71/eec071442e9a1b8e017c5a7c1853b880.jpg') no-repeat center center;
@@ -66,7 +67,7 @@ body,html {
 .carousel-caption h1 {
     font-size: 300%;
     text-transform: uppercase;
-    border: 2px solid #fafafa;
+    border: 2px solid #FEFEFE;;
     background-color: rgba(0,0,0, .5);
     letter-spacing: 4px;
     text-align: center;
