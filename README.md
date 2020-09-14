@@ -230,4 +230,15 @@ with different headings and different paragraphs. I added __six font Awesome__ i
 lastly i added a copyright text to the footer.
 * __Test__ To see everything works as intended i once again use the chrome dev-tools to see what would look like on different screen sizes.
 * **Results:** __Everything__ looks and *works as expected*.
- __Verdict:__ The footer  passed all  the test.
+* __Verdict:__ The footer  passed all  the test.
+
+### Responsiveness:
+* **Plan:** I *Use Bootstrap* to make the website fully __responsive__ on all screen sizes.
+
+* **Implementation:** I used the container, row and col approach to make the different sections of the *website responsive*. I also use the different col types to better be able to control how the content reacts to the different screen sizes.
+
+* **Test:** To test this I mostly used chrome dev-tools. To check how the website would look in action. Things did not work as intended for me most times. I had a review with my code institute mentor and he gave me some tips and tricks on how to think. Once I went through the Bootstrap documentation again and see how it is.
+
+* __Results:__ After a lot of testing and changing everything works as intended.
+
+* __Verdict:__ The *responsiveness* passed all the tests.
