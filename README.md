@@ -206,11 +206,19 @@ in it i added div row container, within the div row i added a div column for my 
 
 ### Club Fitness:
 
-* **Plan** I created a div class and i gave it a name hero-image ,in it i created a row and in it i added a column so that the image looks good for the image to fit the screen.
+* **Plan:** I created a div class and i gave it a name hero-image ,in it i created a row and in it i added a column so that the image looks good for the image to fit the screen.
 * __Implementation:__ This background image i used it to represent the fit of what people get when they join our club. I made it wide to fit the screen because this represent another page but i made it all on one page.
 And also to bring out a clear image of what is really done at the club. I also added a text DW clubs Fitness to be overlayed by the image and i gave it an id so that when you go to the navbar and click , it just dirrect you to this page.
 * __Test:__ It's looking just fine as i wanted after trying out my code in the dev-tool.
 * **Results:** It is resizable just as i wanted.
 * __Verdict:__ The div classes passed the test.
 
-#### Heading Club Fitness:
+#### Heading Club Fitness And Images:
+* **Plan:** This page consists of the header h2 and it's embedded in its own div section, it also consists of three different images each represent different
+kind of activity.
+* __Implementation:__ When designing this part i used three different sections each card had its own section but the styling was just the same because i gave them the same class name, making the stylish more easier.
+ iI created a div section container giving it a name fitness-page, within a container i created a row ,and in the div row i created another div column, which i used to create the Responsiveness of the card and  how the card will  look like on different kind of devices.
+ I gave the div column class for image medium 12 and large 6 and large 4 and also a class of hover when you mouse over the images of the paragraph the div column i gave them medium 12 and large 6 to all paragraphs.
+* __Test:__ I tried it with the dev-tool and all worked fine.
+* **Results:** It is resizable just as i wanted. 
+* __Verdict:__ The div classes passed the test.

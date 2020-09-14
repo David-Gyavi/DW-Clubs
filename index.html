@@ -63,6 +63,9 @@ the three carousel images can cover up the navbar to look awesome. My navbar is 
 
 <!--carousel Image-->
 <article>
+<!--I used the whole bootstrap code making some little changes in the code and stylling it with my css to make responsive.
+The carousel-caption displays only on bigger screen and on smaller screen they just fade away, 
+it's because i used the d-none d-lg-block thats why it shows only on the medium and bigger screen -->
 	<div class="carouselalert-container">
 		<div id="carouselIndicators" class="carousel slide" data-ride="carousel">
 			<ol class="carousel-indicators">
@@ -123,6 +126,8 @@ the three carousel images can cover up the navbar to look awesome. My navbar is 
      
     <!--Main-Page-->
 	<section class="container container-dw">
+    <!--I had to used a div section and give it a container name in this section there is a Heading h1, a paragraph and a button given col-12 -->
+    <!--In here i mostly used classes to style my css-->
 		<div class="col-12 text-center mt-4 dw-clubs">
 			<h1 class="text-dark pt-4 text-uppercase">DW Clubs</h1>
 			<p>Our Clubs are now fully open</p>
@@ -132,6 +137,8 @@ the three carousel images can cover up the navbar to look awesome. My navbar is 
 		</div>
 	</section>
 	<section class="container four-images">
+    <!--Bootstrap image used in here ,and on smaller, medium screens it appears one image per line.--> 
+    <!--And to make it responsive i added my own css to style it.-->
 		<div class="row justify-content-center">
 			<div class="col-12 col-sm-6 col-lg-6 mb-4 hover"><img src="assets/images/dw_fitness.jpg" class="img-fluid rounded" alt="Responsive image">
 				<div class="card-img-overlay overlay-dark text-white d-flex justify-content-right  align-items-end">
@@ -159,6 +166,8 @@ the three carousel images can cover up the navbar to look awesome. My navbar is 
 
 	<!--Happening-->
 	<section class="container happening bg-light" id="happening">
+    <!--Here i used bootstrap cards.-->
+    <!-- And on smaller screens it displays one card per line and the reverse is true to the paragraphs -->
 		<div class="col-12 text-center mt-6 dw-clubs">
 			<h1 class="happening text-dark pt-4 text-uppercase">What's Happening</h1>
 		</div>
@@ -246,6 +255,8 @@ the three carousel images can cover up the navbar to look awesome. My navbar is 
 </div>
 <article>
 	<section class="container info-cont">
+    <!--I created a div section bootstrap to hold a heading h2 of the page, i gave the heading a bootstrap class text-dark to look more dark than the body color. -->
+    <!--But still i had to apply some css to make it look different by ie giving spacing in the heading-->
 		<div class="title-fit">
 			<h2 class="text-dark pt-4 justified-content-center">
 				It's Really Amazing To Spend Your Time With Kids And Family
@@ -253,6 +264,8 @@ the three carousel images can cover up the navbar to look awesome. My navbar is 
 		</div>
 	</section>
 	<section class="fitness-page container">
+    <!--More of bootstrap cards applied here but in this case each card i gave it a div section, and on screens which are small the card images 
+    and the  card text will take one per line. -->
 		<div class="row">
 			<div class="col-md-12 col-lg-6 col-lg-4 hover">
 				<img src="assets/images/arm-strecher.jpg" class="img-fluid" alt="gym classes opened">
@@ -323,6 +336,8 @@ the three carousel images can cover up the navbar to look awesome. My navbar is 
 	<!--Footer-->
 	
 	<footer class="container-fluid footeralert-container">
+    <!--I also used Boostrap classes to make them display the content in footer inline-block and  fontawesome icons. On small screen the social links are 
+    displayed on the left side of the footer-->
 		<div id="footer-details" class="row">
 			<div class="col-sm-3">
 				<h5 class="uppercase general-sub">About</h5>
