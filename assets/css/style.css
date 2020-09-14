@@ -17,7 +17,7 @@ body,html {
     letter-spacing: 2px;
 }
 .navbar-brand img {
-   padding-left: 1rem;
+    padding-left: 1rem;
     height: 3rem;
     width: 100px;
     height: 100px;
@@ -27,7 +27,7 @@ body,html {
     
 }
 .nav-link {
-    color: #FEFEFE;! important;   
+    color: #FEFEFE! important;   
 }
 .nav-link.active,
 .nav-link:hover {
@@ -52,7 +52,7 @@ body,html {
 }
 .fas {
     border-color: 0;
-    color: #FEFEFE;;
+    color: #FEFEFE;
 }
 .navbar-toggler-icon {
 	background: url('https://i.pinimg.com/736x/ee/c0/71/eec071442e9a1b8e017c5a7c1853b880.jpg') no-repeat center center;

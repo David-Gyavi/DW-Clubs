@@ -212,3 +212,5 @@ And also to bring out a clear image of what is really done at the club. I also a
 * __Test:__ It's looking just fine as i wanted after trying out my code in the dev-tool.
 * **Results:** It is resizable just as i wanted.
 * __Verdict:__ The div classes passed the test.
+
+#### Heading Club Fitness:
