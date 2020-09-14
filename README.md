@@ -213,7 +213,7 @@ And also to bring out a clear image of what is really done at the club. I also a
 * **Results:** It is resizable just as i wanted.
 * __Verdict:__ The div classes passed the test.
 
-#### Heading Club Fitness And Images:
+### Heading Club Fitness And Images:
 * **Plan:** This page consists of the header h2 and it's embedded in its own div section, it also consists of three different images each represent different
 kind of activity.
 * __Implementation:__ When designing this part i used three different sections each card had its own section but the styling was just the same because i gave them the same class name, making the stylish more easier.
@@ -222,3 +222,12 @@ kind of activity.
 * __Test:__ I tried it with the dev-tool and all worked fine.
 * **Results:** It is resizable just as i wanted. 
 * __Verdict:__ The div classes passed the test.
+
+### Footer Section:
+* **Plan:** I used the **footer** to holdsocial icons copyright text and headings and paragraphs.
+*  __Implementation:__ *I created* **bootstrap footer**. I added a div row class and an id with a name footer-details, in this row i created sevral columns
+with different headings and different paragraphs. I added __six font Awesome__ icons that links to different social media, i added  a subscription page which consist of email placeholder and a submition button.
+lastly i added a copyright text to the footer.
+* __Test__ To see everything works as intended i once again use the chrome dev-tools to see what would look like on different screen sizes.
+* **Results:** __Everything__ looks and *works as expected*.
+ __Verdict:__ The footer  passed all  the test.
