@@ -107,7 +107,8 @@ I made my wireframe with a pen style just normal drawing since it was my first t
 In this wireframe planing of the project i made three big images as my welcome images but in carousel form sliding next to eachother and making my nav links having a plain backgroud of these three images followed by caption in the middle which made it ot look nice giving it a tranparent black and a white border.
 
 My plan was to make different kind of landing pages but after a good talk with my mentor it was better
-to make one page with multiple sections connected to links provided.
+to make one page with multiple sections connected to links provided. I created the home page and the Fitness page and left out the Family & Kids page because the i had planed it, it looks almost the same as the Fitness page but in feature i will add that page
+to bring out what it would look
 </details>
 
 ![Screen_Sizes](assets/images/Screen_Sizes.png)
