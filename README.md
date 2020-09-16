@@ -251,3 +251,30 @@ lastly i added a copyright text to the footer.
 * __Results:__ After a lot of testing and changing everything works as intended.
 
 * __Verdict:__ The *responsiveness* passed all the tests.
+
+## Deployment:
+
+The DW Gym was __created__ *and* **developed** using *GitHub* working together one in one with GitPod by using the git commonly used  commands, 
+__git status, git commit and git push respectely to the gitHub__.
+
+#### Github was used in deploying DW Club Gym by the following steps:
+
+* __Opened__ up *GitHub* in the browser.
+* __Signed__ in using *username and password*.
+* __Selected__ my repositories.
+* __Navigated__ to David-Gyavi/DW-Club.
+* In the top navigation clicked settings.
+* __Scrolled__ down to the __GitHub Pages area.__
+* __Selected Master Branch__ from the Source *dropdown* menu.
+* __Clicked__ to confirm my selection.
+* **DW Club** is now live on *GitHub* Pages.
+
+If you would want to *Clone* __DW Club__, follow the following steps.
+
+* __Navigate__ to David-Gyavi/DW-Club.
+* **Click** the **green** Clone or *Download* button.
+* **Copy** the __url__ in the dropdown box.
+* **Using** your __IDE__ of choice open up your preferred terminal or github desktop .
+* __Navigate__ to your desired file location.
+* **Copy** the following code and input it into your terminal to clone *David-Gyavi/DW-Club*.
+
