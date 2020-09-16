@@ -278,3 +278,15 @@ If you would want to *Clone* __DW Club__, follow the following steps.
 * __Navigate__ to your desired file location.
 * **Copy** the following code and input it into your terminal to clone *David-Gyavi/DW-Club*.
 
+Git clone https://github.com/David-Gyavi/DW-Clubs.git
+
+## Credits:
+
+### Pictures
+
+**A**ll of these *pictures* used in this ****project** are free to use. I got these pictures  from **Google,** easily seached and found at any time.
+
+### Special thanks to:
+
+My code institute **mentor** [Simen Daehlin](https://github.com/Eventyret)
+**This site is for educational purposes**
