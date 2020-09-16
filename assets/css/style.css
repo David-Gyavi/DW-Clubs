@@ -273,11 +273,3 @@ hr {
     width: 100%;
   }
 }
-@keyframes hero-image {
-    from{
-        transform: scale(1);
-    } 
-    to{
-        transform: scale(1.1);
-    }
-}

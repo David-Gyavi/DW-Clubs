@@ -101,14 +101,18 @@ To be more clear of what i did, here are explanations about my **wireframes.**
 ##### Tablet Wireframe.
 ##### Mobile Wireframe.
 <details>
-  <summary></strong>About My Site And Wireframes In Brief:</strong></summary>
+  <summary><strong>About My Site And Wireframes In Brief:</strong></summary>
 In the planing of this project i thought maybe i would make three different pages but i found out that it's better to make two pages on one page, so in doing this i made the links to be internal.
 I made my wireframe with a pen style just normal drawing since it was my first time to land in these things of wireframe designing but still am trying my best to learn more __UI and UX__ design.
 In this wireframe planing of the project i made three big images as my welcome images but in carousel form sliding next to eachother and making my nav links having a plain backgroud of these three images followed by caption in the middle which made it ot look nice giving it a tranparent black and a white border.
 
 My plan was to make different kind of landing pages but after a good talk with my mentor it was better
 to make one page with multiple sections connected to links provided. I created the home page and the Fitness page and left out the Family & Kids page because the i had planed it, it looks almost the same as the Fitness page but in feature i will add that page
-to bring out what it would look
+to bring out what it would look.
+I created my header where my navbar is, i made my navbar transparent making it to be visible through the background with a white color to the navbar list and when you mouse hover the __Nav list they simply change to pink__ so the carousel images look pretty good with also the carousel-caption text.
+The most problem i had was the section different clubs to go to images , making their responsiveness was not quiet easy but through the help of my mentor and the students tutors it managed to look pretty good and responsiveness to different size screens.
+This site consists of three pages but i made only two, and the third one i will make it in the feature. The active ones are the **Home page and the Fitness Page**.
+The project is all about the gym. Helping people to remain fysically fit and health that is the main core of it. 
 </details>
 
 ![Screen_Sizes](assets/images/Screen_Sizes.png)
