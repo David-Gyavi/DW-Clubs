@@ -67,7 +67,7 @@ body,html {
 .carousel-caption h1 {
     font-size: 300%;
     text-transform: uppercase;
-    border: 2px solid #FEFEFE;;
+    border: 2px solid #FEFEFE;
     background-color: rgba(0,0,0, .5);
     letter-spacing: 4px;
     text-align: center;
@@ -262,14 +262,21 @@ hr {
     padding-left: 0;
     padding-right: 0;
 }
-@media only screen and (max-width: 1393px) {
+@media only screen and (max-width: 1025px) {
   .different-clubs {
     width: 40%;
     margin: 6px 0;
   }
-}
-@media only screen and (max-width: 943px) {
+  footer {
+   min-height: 120px;
+   margin: 0; 
+ }
+@media only screen and (max-width: 768px) {
   .different-clubs {
     width: 100%;
   }
+  footer {
+   min-height: 120px;
+   margin: 0; 
+ }
 }
