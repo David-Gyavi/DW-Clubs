@@ -252,6 +252,16 @@ lastly i added a copyright text to the footer.
 
 * __Verdict:__ The *responsiveness* passed all the tests.
 
+## Bugs:
+
+In **creating** of this site, i came across some **bugs**.
+### Bootstrap carousel slide images displays not good.
+* Bug: The slider and controls for the Bootstrap carousel images could not work properly.
+* Solution: I used Google to find Css Tricks it's really the one which helped me. Once I added them everything worked perfectly.
+
+### Bootstrap navbar 
+* __Bug:__ When i added the navbar inside the container fluid it would display a lot of whitespace on the left and right ends.
+* __Solution:__ There was no margin or padding to edit, setting is to negative margin did not work either. Luckily when I *added* the class "navalert-container" to the navbar and i gave it some css then the whitespace disapeared.
 ## Deployment:
 
 The DW Gym was __created__ *and* **developed** using *GitHub* working together one in one with GitPod by using the git commonly used  commands, 
