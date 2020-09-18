@@ -95,15 +95,15 @@ body,html {
 }
 
 .btn-primary {
-    background-color:#8a0256;
+    background-color:#B93993;
     color: #FEFEFE; 
-    border: #B93993;  
+    border-color: #B93993;  
 }
 
 .btn-primary:hover,
 .btn-primary:focus{
-      background-color: #B93993! important;
-      border:  #B93992! important;
+      background-color: #EC1212! important;
+      border-color:  #B93992! important;
 }
 
 .dw-clubs {
@@ -111,15 +111,15 @@ body,html {
 }
 
 .btn-success {
-   background-color:#8a0256; 
+   background-color:#B93993; 
    color: #FEFEFE; 
-   border: #B93993; 
+   border-color: #B93993; 
 }
 
 .btn-success:hover,
 .btn-success:focus{
-    background-color: #B93993! important;
-    border:  #B93993! important;
+    background-color:#EC1212! important;
+    border-color:  #B93993! important;
 }
 /*--Four--Images--*/
 
@@ -209,7 +209,7 @@ margin: 0;
     text-align: center;
     line-height: 7px;
     color: #FEFEFE;
-    background-color: #8a0256;
+    background-color: #B93993;
     transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
     -webkit-transition: all 0.35s ease-in-out;
@@ -217,7 +217,7 @@ margin: 0;
 }
 
 .social-links li a i:hover {
-      background:  #B93993;
+      background:  #EC1212;
 }
 
 .uppercase {
@@ -246,7 +246,7 @@ hr {
 }
 
 .footer-d_wa {
-    color: #B93993;
+    color: #EC1212;
 }
 .footer-d_wa:hover {
     color:  #FEFEFE;
@@ -262,7 +262,9 @@ hr {
     padding-left: 0;
     padding-right: 0;
 }
-@media only screen and (max-width: 1025px) {
+/*--MEDIA QUERIES--*/
+/*--Large screen of mobile--*/
+@media only screen and (min-width: 380px) {
   .different-clubs {
     width: 40%;
     margin: 6px 0;
@@ -271,7 +273,7 @@ hr {
    min-height: 120px;
    margin: 0; 
  }
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 768px) {
   .different-clubs {
     width: 100%;
   }
