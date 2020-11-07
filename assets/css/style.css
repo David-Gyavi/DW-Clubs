@@ -162,8 +162,9 @@ body,html {
     background: url('../images/swim1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px; 
+    height: 900px; 
     background-position: center;
+    margin-bottom: 40px;
 }
 .para-text {
     text-align: left;
