@@ -162,7 +162,6 @@ body,html {
     background: url('../images/swim1.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    /*min-height: 70vh;*/
     height: 500px; 
     background-position: center;
 }
@@ -179,10 +178,6 @@ body,html {
 .fitness-page {
     padding-bottom: 1.5rem;
     padding-top: 1.5rem;
-}
-.fitness-page img {
-    width: 600px;
-    height: 400px;
 }
 .hover:hover {
     transform: scale(1.1);
