@@ -320,7 +320,7 @@
 </article>
 	<!--Footer-->
 	
-	<footer class="container-fluid footeralert-container">
+	<footer>
     <!--I also used Boostrap classes to make them display the content in footer inline-block and  fontawesome icons. On small screen the social links are 
     displayed on the left side of the footer-->
 		<div id="footer-details" class="row">
@@ -386,17 +386,14 @@
 					</li>
 				</ul>
 			</div>
-			<div class="col-sm-3">
-				<h5 class="lowercase page">Subscribe Our Page</h5>
-				<input type="text" name="subscribe" placeholder="Enter Email" class="form" required>
-				<button
-	            class="btn btn-success btn-lg ml-2 inline-block">
-	            Submit
-	          </button>
-				
-			</div>
-		</div>
-		<hr>
+			<form>
+				<div>
+					<h5 class="lowercase page">Subscribe Our Page</h5>	
+					<input id="username" type="text" name="subscribe"  placeholder="Enter Email" class="form" required>
+					<input type="submit" class="btnbtn-success">
+					</div>
+			</form>
+			<hr>
 		<div class="container">
 			<h4 class="dw-copyright">@Copyright 2020 DW Clubs Sports Ltd.</h4>
 		</div>
