@@ -65,7 +65,7 @@ body,html {
     top: 59%;
     transform: translateY(-50%);
 }
-.carousel-caption h1 {
+.carousel-caption h2 {
     font-size: 300%;
     text-transform: uppercase;
     border: 2px solid #FEFEFE;
@@ -182,6 +182,9 @@ body,html {
     transform: scale(1.1);
     transition-timing-function: ease-in-out;
     transition-duration: 1.3s;
+}
+section {
+    margin-bottom: 40px;
 }
 /*--Footers--*/
 
