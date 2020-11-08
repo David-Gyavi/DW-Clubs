@@ -20,8 +20,8 @@ body,html {
 .navbar-brand img {
     padding-left: 1rem;
     height: 3rem;
-    width: 100px;
-    height: 100px;
+    width: 80px;
+    height: 80px;
     padding: 12px;
     border-radius: 50%;
     line-height: 7px;  
@@ -96,8 +96,7 @@ body,html {
 }
 .btn-light {
     background-color:#B93993;
-    color: #FEFEFE; 
-    border-color:   
+    color: #FEFEFE;   
 }
 .btn-light:hover,
 .btn-light:focus{
@@ -111,10 +110,6 @@ body,html {
    padding-bottom: 1rem;
 }
 /*-----Happening-------*/
-#happening h2,p {
-    text-align: left;
-    padding-top: 1px;
-}
 .text-align-left {
     text-align: left;
 }
@@ -165,7 +160,7 @@ body,html {
     transition-duration: 1.3s;
 }
 section {
-    margin: 40px;
+    margin-bottom: 40px;
 }
 /*--Footers--*/
 
