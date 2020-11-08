@@ -94,33 +94,15 @@ body,html {
     font-size: 1rem;
     border-width: medium;
 }
-
-.btn-primary {
+.btn-light {
     background-color:#B93993;
     color: #FEFEFE; 
-    border-color: rgb(247, 193, 231);  
+    border-color:   
 }
-
-.btn-primary:hover,
-.btn-primary:focus{
-      background-color: #EC1212! important;
-      border-color:  #B93992! important;
-}
-
-.dw-clubs {
-    padding-bottom: 1rem;
-}
-
-.btn-success {
-   background-color:#B93993; 
-   color: #FEFEFE; 
-   border-color: rgb(247, 193, 231); 
-}
-
-.btn-success:hover,
-.btn-success:focus{
-    background-color:#EC1212! important;
-    border-color:  #B93993! important;
+.btn-light:hover,
+.btn-light:focus{
+      background-color: #FEFEFE! important;
+      color:  #B93993! important;
 }
 /*--Four--Images--*/
 
@@ -129,7 +111,6 @@ body,html {
    padding-bottom: 1rem;
 }
 /*-----Happening-------*/
-
 #happening h2,p {
     text-align: left;
     padding-top: 1px;
@@ -184,7 +165,7 @@ body,html {
     transition-duration: 1.3s;
 }
 section {
-    margin-bottom: 40px;
+    margin: 40px;
 }
 /*--Footers--*/
 
