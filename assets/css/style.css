@@ -185,10 +185,8 @@ margin: 0;
     color: #FEFEFE;
     background-color: #B93993;
     transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
-    -webkit-transition: all 0.35s ease-in-out;
-    -o-transition: all 0.35s ease-in-out;
-}
+} 
+
 
 .social-links li a i:hover {
       background:  #EC1212;
@@ -229,16 +227,4 @@ hr {
     width: 40%;
     margin: 6px 0;
   }
-  footer {
-   min-height: 120px;
-   margin: 0; 
- }
-@media only screen and (min-width: 768px) {
-  .different-clubs {
-    width: 100%;
-  }
-  footer {
-   min-height: 120px;
-   margin: 0; 
- }
 }
