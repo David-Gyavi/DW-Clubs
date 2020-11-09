@@ -5,7 +5,8 @@ body,html {
     overflow-x: hidden;
     width: 100%;
     font-family: 'Lora', serif;
-    color: #94989b; 
+    color: #94989b;
+    scroll-behavior: smooth; 
 }
 
 /*--Navbar--*/
@@ -112,17 +113,6 @@ body,html {
 /*-----Happening-------*/
 .text-align-left {
     text-align: left;
-}
-/*--Different Clubs------*/
-.go-clubs img {
-    width: 100%;
-    min-height: 20vh;
-    padding-bottom: 2px;
-}
-.go-clubs {
-    padding-bottom: 1rem;
-    margin-top: 40px;
-    margin-bottom: 40px;
 }
 /*--Fitness Page--*/
 .title-fit {
